@@ -15,3 +15,15 @@ algoritmo atravessarRua
 fim-algoritmo
 </code>
 </pre>
+
+### Algorítmos computacionais
+
+Os algorítmos computacionais são desenvolvidos através de 3 fases:
+
+<ul>
+    <li>Lógica de programação</li>
+    <li>Linguagem de programação</li>
+    <li>Sistema completo</li>
+</ul>
+
+A lógica de programação é estruturada através de uma linguagem para construir um sistema completo.
