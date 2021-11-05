@@ -36,12 +36,27 @@ Através do programa <strong>VisuAlg</strong>, foi possível desenvolver esse me
 
 <pre>
 <code>
-algoritimo "primeiro-comando"
+algoritmo "primeiro-comando"
 var
 inicio
     Escreva ("Ola, mundo!")
-fimalgoritimo
+fimalgoritmo
 </code>
 </pre>
 
 Como resultado, eu tive a mensagem: <i>Ola, mundo!</i>
+
+### Outros comandos
+
+#### Texto em uma nova linha:
+
+<pre>
+<code>
+    escreva ("Linha de cima")
+    escreval ("Linha de baixo")
+</code>
+</pre>
+
+<strong>Resultado:</strong>
+<i>Linha de cima
+Linha de baixo</i>
