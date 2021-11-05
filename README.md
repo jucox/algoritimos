@@ -34,6 +34,7 @@ O portugol é uma maneira de representar a lógica de programação para convert
 
 Através do programa <strong>VisuAlg</strong>, foi possível desenvolver esse meu primeiro código:
 
+<pre>
 <code>
 algoritimo "primeiro-comando"
 var
@@ -41,5 +42,6 @@ inicio
     Escreva ("Ola, mundo!")
 fimalgoritimo
 </code>
+</pre>
 
 Como resultado, eu tive a mensagem: <i>Ola, mundo!</i>
