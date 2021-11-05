@@ -52,11 +52,39 @@ Como resultado, eu tive a mensagem: <i>Ola, mundo!</i>
 
 <pre>
 <code>
-    escreva ("Linha de cima")
-    escreval ("Linha de baixo")
+    escreval ("Linha de cima")
+    escreva ("Linha de baixo")
 </code>
 </pre>
 
 <strong>Resultado:</strong>
-<i>Linha de cima
+<i>Linha de cima<br>
 Linha de baixo</i>
+
+### Variáveis
+
+#### Identificadores
+Os identificadores são as palavras que definem a variável. Devem começar com uma letra e não podem ter símbolos (com exceção do underline (_)) ou espaços, também não podem ter o mesmo nome das palavras reservadas ("inicio", "var", "algoritmo", etc).
+
+<strong>Exemplos:</strong> teste1, nome_teste, algoritmos_saoLegais
+
+#### Tipos Primitivos
+<ol>
+<li><strong>Inteiro:</strong> 1, 200, -89, 0</li>
+<li><strong>Real:</strong> 0.5, 2.75, -35.6</li>
+<li><strong>Caractere:</strong> "Teste", "Isso é um texto", "Algoritmos"</li>
+<li><strong>Lógico:</strong> verdadeiro, falso</li>
+
+#### Exemplo de atribuição de variável
+<pre>
+<code>
+algoritmo "segundo"
+var
+   nome: caractere
+inicio
+      nome <- "Renato"
+      Escreva ("Olá, o meu nome é " + nome)
+fimalgoritmo
+</code>
+</pre>
+
