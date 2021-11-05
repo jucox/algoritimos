@@ -1,7 +1,9 @@
 ### O que são algorítmos?
 
-Os algorítmos são uma sequência de ações executadas para a solução de um problema. Como por exemplo?
+Os algorítmos são uma sequência de ações executadas para a solução de um problema. Como por exemplo:
 
+<pre>
+<code>
 algoritmo atravessarRua
     olhar para a direita
     olhar para a esquerda
@@ -11,3 +13,5 @@ algoritmo atravessarRua
         atravesse
     fim-se
 fim-algoritmo
+</code>
+</pre>
