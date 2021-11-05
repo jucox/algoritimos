@@ -31,3 +31,15 @@ A lógica de programação é estruturada através de uma linguagem para constru
 ### Portugol
 
 O portugol é uma maneira de representar a lógica de programação para converter para uma linguagem.
+
+Através do programa <strong>VisuAlg</strong>, foi possível desenvolver esse meu primeiro código:
+
+<code>
+algoritimo "primeiro-comando"
+var
+inicio
+    Escreva ("Ola, mundo!")
+fimalgoritimo
+</code>
+
+Como resultado, eu tive a mensagem: <i>Ola, mundo!</i>
