@@ -27,3 +27,7 @@ Os algorítmos computacionais são desenvolvidos através de 3 fases:
 </ul>
 
 A lógica de programação é estruturada através de uma linguagem para construir um sistema completo.
+
+### Portugol
+
+O portugol é uma maneira de representar a lógica de programação para converter para uma linguagem.
