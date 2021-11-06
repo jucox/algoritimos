@@ -103,7 +103,7 @@ fimAlgoritmo
 </code>
 </pre>
 
-<strong>leia</strong> é um comando de entrada
+<strong>leia</strong> é um comando de entrada<br>
 <strong>escreva</strong> é um comando de saída
 
 #### Soma de valores
@@ -112,14 +112,14 @@ fimAlgoritmo
 <code>
 algoritmo "soma"
 var
-          numero1, numero2, soma: inteiro
+    numero1, numero2, soma: inteiro
 inicio
-      escreva ("Digite o primeiro número: ")
-      leia (numero1)
-      escreva ("Digite o segundo número: ")
-      leia (numero2)
-      soma <- numero1 + numero2
-      escreva ("A soma entre ",numero1," e ",numero2," é igual a ", soma)
-fimalgoritmo
+    escreva ("Digite o primeiro número: ")
+    leia (numero1)
+    escreva ("Digite o segundo número: ")
+    leia (numero2)
+    soma <- numero1 + numero2
+    escreva ("A soma entre ",numero1," e ",numero2," é igual a ", soma)
+fimAlgoritmo
 </code>
 </pre>
