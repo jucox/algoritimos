@@ -80,11 +80,28 @@ Os identificadores são as palavras que definem a variável. Devem começar com 
 <code>
 algoritmo "segundo"
 var
-   nome: caractere
+    nome: caractere
 inicio
-      nome <- "Renato"
-      Escreva ("Olá, o meu nome é " + nome)
-fimalgoritmo
+    nome <- "Renato"
+    escreva ("Olá, o meu nome é " + nome)
+fimAlgoritmo
 </code>
 </pre>
 
+### Comandos de entrada
+
+<pre>
+<code>
+algoritmo "olaNome"
+var
+    nome: caractere
+inicio
+    escreva ("Olá, o seu nome é: )
+    leia (nome)
+    escreva ("Muito prazer, " + nome)
+fimAlgoritmo
+</code>
+</pre>
+
+<strong>leia</strong> é um comando de entrada
+<strong>escreva</strong> é um comando de saída
