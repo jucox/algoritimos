@@ -123,6 +123,9 @@ inicio
     b <- 2
     escreva(a+b) <i>//adição</i>
     escreva(a-b) <i>//subtração</i>
+</code>
+</pre>
+
 #### Soma de valores
 
 <pre>
@@ -141,7 +144,6 @@ fimAlgoritmo
 </code>
 </pre>
 
-### 
 #### Exemplo de uma equação em algorítmos
 <pre>
 <code>
@@ -154,3 +156,15 @@ inicio
 fimAlgoritmo
 </code>
 </pre>
+
+### Operadores relacionais
+
+Os operadores relacionais são aqueles que determinam se tal operação é verdadeira ou falsa. São eles: maior que ( > ), menor que ( < ), maior ou igual a ( >= ), menor ou igual a ( <= ), diferente ( <> ).
+
+Alguns exemplos:
+
+<pre>
+<code>
+algoritmo
+var
+inicio
