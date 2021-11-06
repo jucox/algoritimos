@@ -106,6 +106,23 @@ fimAlgoritmo
 <strong>leia</strong> é um comando de entrada<br>
 <strong>escreva</strong> é um comando de saída
 
+### Operadores Aritméticos
+
+São operadores aritméticos aqueles que são usados para realizar contas matemáticas, como adição ( + ), subtração ( - ), multiplicação ( * ), divisão ( / ), divisão inteira ( \ ), exponênciação ( ^ ) e resto da divisão ( % ).
+
+Alguns exemplos:
+
+<pre>
+<code>
+algoritmo
+var
+    a: inteiro
+    b: inteiro
+inicio
+    a <- 5
+    b <- 2
+    escreva(a+b) <i>//adição</i>
+    escreva(a-b) <i>//subtração</i>
 #### Soma de valores
 
 <pre>
@@ -124,6 +141,7 @@ fimAlgoritmo
 </code>
 </pre>
 
+### 
 #### Exemplo de uma equação em algorítmos
 <pre>
 <code>
