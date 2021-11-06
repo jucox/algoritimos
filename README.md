@@ -123,3 +123,16 @@ inicio
 fimAlgoritmo
 </code>
 </pre>
+
+#### Exemplo de uma equação em algorítmos
+<pre>
+<code>
+algoritmo "equacao"
+var
+    resultado: real
+inicio
+    resultado <- (7 + 3) / 5
+    escreva(resultado)
+fimAlgoritmo
+</code>
+</pre>
