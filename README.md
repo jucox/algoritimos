@@ -197,7 +197,8 @@ fimAlgoritmo
 
 ### Ordem de Precedência
 
-<a href="https://youtu.be/Ig4QZNpVZYs?t=1000" target="_blank"><img src="img/ordem-precedencia.png"></a>
+<img src="img/ordem-precedencia.png">
+<a href="https://youtu.be/Ig4QZNpVZYs?t=1000" target="_blank">Print tirado dessa vídeoaula</a>
 
 ### Exemplo de Código com todas as Operações
 
