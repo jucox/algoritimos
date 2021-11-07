@@ -116,8 +116,7 @@ Alguns exemplos:
 <code>
 algoritmo
 var
-    a: inteiro
-    b: inteiro
+    a, b: inteiro
 inicio
     a <- 5
     b <- 2
@@ -159,7 +158,7 @@ fimAlgoritmo
 
 ### Operadores relacionais
 
-Os operadores relacionais são aqueles que determinam se tal operação é verdadeira ou falsa. São eles: maior que ( > ), menor que ( < ), maior ou igual a ( >= ), menor ou igual a ( <= ), diferente ( <> ).
+Os operadores relacionais são aqueles que determinam se tal operação é verdadeira ou falsa. São eles: maior que ( > ), menor que ( < ), maior ou igual a ( >= ), menor ou igual a ( <= ), igual a ( = ), diferente ( <> ).
 
 Alguns exemplos:
 
@@ -167,4 +166,29 @@ Alguns exemplos:
 <code>
 algoritmo
 var
+    a, b: inteiro
 inicio
+    a <- 10
+    b <- 5
+    escreva(a>b) <i>//TRUE</i>
+    escreva(a+b=b%2) <i>//FALSE</i>
+fimAlgoritmo
+</code>
+</pre>
+
+### Operadores Lógicos
+
+Os operadores lógicos comparam dois valores e determinam se o resultado é verdadeiro ou falso através dos operadores E e OU.
+
+<pre>
+<code>
+algoritmo
+var
+    a, b: inteiro
+inicio
+    a <- 10
+    b <- 5
+    escreva((a>b) e (b<a)) <i>//TRUE - porque as duas operações são verdadeiras</i>
+    escreva((a/b = 2) ou (a/b = 3)) <i>//TRUE - porque uma das operações é verdadeira</i>
+    escreva ((a=b) ou (b>=10)) <i>// FALSE - porque as duas operações estão incorretas</i>
+fimAlgoritmo
