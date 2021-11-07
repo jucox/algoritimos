@@ -198,3 +198,24 @@ fimAlgoritmo
 ### Ordem de Precedência
 
 <img src="img/ordem-precedencia.png">
+
+### Exemplo de Código com todas as Operações
+
+<pre>
+<code>
+algoritmo "temperatura"
+var
+     t1, t2, t3: real
+     geral: logico
+inicio
+      escreval("Qual era a temperatura de manhã? ")
+      leia(t1)
+      escreval("Qual era a temperatura de tarde? ")
+      leia(t2)
+      escreval("Qual era a temperatura de noite? ")
+      leia(t3)
+      geral <- (t1>15) e (t2>20) e (t3>15)
+      escreva("Hoje o dia estava quente? ", geral)
+fimalgoritmo
+</code>
+</pre>
