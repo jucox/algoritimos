@@ -188,7 +188,13 @@ var
 inicio
     a <- 10
     b <- 5
-    escreva((a>b) e (b<a)) <i>//TRUE - porque as duas operações são verdadeiras</i>
+    escreva((a>b) e (b<>a)) <i>//TRUE - porque as duas operações são verdadeiras</i>
     escreva((a/b = 2) ou (a/b = 3)) <i>//TRUE - porque uma das operações é verdadeira</i>
     escreva ((a=b) ou (b>=10)) <i>// FALSE - porque as duas operações estão incorretas</i>
 fimAlgoritmo
+</code>
+</pre>
+
+### Ordem de Precedência
+
+<img src="img/ordem-precedencia.png">
