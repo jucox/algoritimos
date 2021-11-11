@@ -269,7 +269,7 @@ var
 inicio
       escreva("A temperatura local está quantos graus em fahrenheit? ")
       leia (temperaturaF)
-      temperaturaC <- temperaturaF - 32 / 1,8
+      temperaturaC <- temperaturaF - 32 / 1.8
       escreva ("Então aqui está ",temperaturaC," graus em celsius.")
 fimalgoritmo
 </code>
