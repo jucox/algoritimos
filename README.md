@@ -238,3 +238,5 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+<strong>Dica de ouro:</strong> uma ótima ferramenta para práticar algorítmos de forma dinâmica e animada é o <strong><a href="https://scratch.mit.edu/download">Scratch</a></strong>.
