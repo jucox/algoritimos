@@ -258,3 +258,19 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Algorítmo Conversor de Temperatura
+
+<pre>
+<code>
+algoritmo "conversor-temperatura"
+var
+   temperaturaF, temperaturaC: real
+inicio
+      escreva("A temperatura local está quantos graus em fahrenheit? ")
+      leia (temperaturaF)
+      temperaturaC <- temperaturaF - 32 / 1,8
+      escreva ("Então aqui está ",temperaturaC," graus em celsius.")
+fimalgoritmo
+</code>
+</pre>
