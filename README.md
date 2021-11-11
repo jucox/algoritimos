@@ -270,7 +270,25 @@ inicio
       escreva("A temperatura local está quantos graus em fahrenheit? ")
       leia (temperaturaF)
       temperaturaC <- (temperaturaF - 32) / 1.8
-      escreva ("Então aqui está ",temperaturaC," graus em celsius.")
+      escreva ("Então aqui está ",temperaturaC:4:1," graus em celsius.")
+fimalgoritmo
+</code>
+</pre>
+
+#### Algorítmo de Cálculo de Taxa de Importação
+
+<pre>
+<code>
+algoritmo "taxa-importacao"
+var
+   valorObjeto, taxa, valorTaxado: real
+inicio
+      escreva("Quanto custa o objeto que comprei?" )
+      leia (valorObjeto)
+      escreva("Qual é a taxa de importação?" )
+      leia(taxa)
+      valorTaxado <- (valorObjeto * taxa) / 100
+      escreva ("Então eu pagarei ",valorTaxado:5:2,".")
 fimalgoritmo
 </code>
 </pre>
