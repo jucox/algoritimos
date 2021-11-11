@@ -240,3 +240,21 @@ fimalgoritmo
 </pre>
 
 <strong>Dica de ouro:</strong> uma ótima ferramenta para práticar algorítmos de forma dinâmica e animada é o <strong><a href="https://scratch.mit.edu/download">Scratch</a></strong>.
+
+#### Algorítmo Conversor de Reais em Dollares
+
+<pre>
+<code>
+algoritmo "conversor-dollar"
+var
+   valorDollar, quantiaReais, quantiaPossivel: real
+inicio
+      escreva("Vou para os Estados Unidos. Quanto o dollar está valendo hoje? ")
+      leia (valorDollar)
+      escreva ("Quantos reais eu tenho? ")
+      leia (quantiaReais)
+      quantiaPossivel <- quantiaReais  / valorDollar
+      escreva("Então eu consigo comprar US$ " , quantiaPossivel , ".")
+fimalgoritmo
+</code>
+</pre>
