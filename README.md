@@ -220,3 +220,21 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Algorítmo Calculador de Idade
+
+<pre>
+<code>
+algoritmo "minha-idade"
+var
+   anoAtual, anoNascimento, idade: inteiro
+inicio
+      escreva("Em que ano estamos? ")
+      leia (anoAtual)
+      escreva ("Em que ano eu nasci? ")
+      leia (anoNascimento)
+      idade <- (anoAtual - anoNascimento)
+      escreva("Então a minha idade é ", idade ,"!")
+fimalgoritmo
+</code>
+</pre>
