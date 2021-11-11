@@ -292,3 +292,24 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Algorítmo Calculador de Parcelas de Empréstimo
+
+<pre>
+<code>
+algoritmo "emprestimo"
+var
+   taxa, emprestimo, valorParcelado: real
+   parcelas: inteiro
+inicio
+      escreva("Qual é a taxa de juros para empréstimos nesse banco? ")
+      leia(taxa)
+      escreva("Quanto você precisa de empréstimo? R$ ")
+      leia (emprestimo)
+      escreva("Em quantas parcelas você deseja pagar? ")
+      leia(parcelas)
+      valorParcelado <- (emprestimo + ((emprestimo * taxa)) / 100) / parcelas
+      escreva ("Então você pagará ",parcelas," parcelas de R$ ",valorParcelado,".")
+fimalgoritmo
+</code>
+</pre>
