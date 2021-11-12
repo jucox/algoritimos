@@ -384,3 +384,25 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Cálculo de IMC
+
+<pre>
+<code>
+algoritmo "calculo-imc"
+var
+   altura, massa, imc: real
+inicio
+      escreva("Qual é sua altura em metros? ")
+      leia(altura)
+      escreva("Qual é sua massa em kg? ")
+      leia(massa)
+      imc <- massa / (altura ^ 2)
+      se((imc > 18.5) e (imc < 25)) entao
+           escreval("O seu IMC é de ",imc:2:1,". Você está no peso ideal.")
+      senao
+           escreval("O seu IMC é de ",imc:2:1,". Você não está no peso ideal.")
+      fimse
+fimalgoritmo
+</pre>
+</code>
