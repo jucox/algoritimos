@@ -366,4 +366,21 @@ fimalgoritmo
 
 ### Exemplos de Estruturas Condicionais
 
-####
+#### Par ou Ímpar?
+
+<pre>
+<code>
+algoritmo "par-impar"
+var
+    numero: inteiro
+inicio
+    escreva("Digite um número: ")
+    leia(numero)
+    se(numero % 2 = 0) entao
+        escreval("O número ",numero," é par.")
+    senao
+        escreval("O número ",numero," é ímpar.")
+    fimse
+fimalgoritmo
+</code>
+</pre>
