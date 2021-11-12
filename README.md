@@ -406,3 +406,32 @@ inicio
 fimalgoritmo
 </pre>
 </code>
+
+#### Habilitação: Apto ou Inapto?
+
+<pre>
+<code>
+algoritmo "cnh"
+var
+   anoAtual, anoNascimento, idade: inteiro
+inicio
+      escreval("--------------------------")
+      escreval(" DEPARTAMENTO DE TRANSITO")
+      escreval("--------------------------")
+      escreva("Ano Atual (yyyy): ")
+      leia(anoAtual)
+      escreva("Ano de Nascimento (yyyy): ")
+      leia(anoNascimento)
+      idade <- anoAtual - anoNascimento
+      escreval(" ")
+      escreval("----------STATUS----------")
+      escreval(" IDADE: ",idade," ANOS")
+      se(idade >= 18) entao
+           escreva(" APTO A TIRAR CARTEIRA")
+      senao
+           escreval(" INAPTO A TIRAR CARTEIRA")
+      fimSe
+      escreva("--------------------------")
+fimalgoritmo
+</pre>
+</code>
