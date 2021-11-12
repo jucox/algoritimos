@@ -314,7 +314,7 @@ fimalgoritmo
 </code>
 </pre>
 
-### Estruturas Condicionais
+## Estruturas Condicionais
 
 As estruturas conficionais são baseadas no fluxo: condição => expressão => resultado. Utilizamos os termos <strong>SE</strong> e <strong>SENÃO</strong> para abrir a condição, logo depois definimos ela através de uma expressão e, com isso, programamos o resultado. Exemplos:
 
@@ -341,6 +341,8 @@ fimalgoritmo
 
 #### Estrutura Composta (SE SENÃO / IF ELSE)
 
+Agora um pouco diferente:
+
 <i>Se eu tiver dinheiro, então comprarei um carro. Senão tiver, comprarei uma bicicleta"</i>
 
 O algorítmo dessa expressão seria assim:
@@ -361,3 +363,7 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+### Exemplos de Estruturas Condicionais
+
+####
