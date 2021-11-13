@@ -485,7 +485,7 @@ inicio
         fimSe
     fimSe
 fimalgoritmo
-</code
+</code>
 </pre>
 
 #### Aproveitamento Escolar
@@ -532,6 +532,7 @@ fimalgoritmo
 ### Condicionais com Estrutura ESCOLHA CASO
 
 #### Doação
+
 <pre>
 <code>
 algoritmo "doacao"
@@ -561,6 +562,7 @@ fimalgoritmo
 </pre>
 
 #### Diferença de Gols
+
 <pre>
 <code>
 algoritmo "aproveitamento"
