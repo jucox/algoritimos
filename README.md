@@ -435,3 +435,31 @@ inicio
 fimalgoritmo
 </pre>
 </code>
+
+#### Aluno Aprovado ou Reprovado?
+
+<pre>
+<code>
+algoritmo "nota"
+var
+   nota1, nota2, media: real
+inicio
+      escreval("------------------------")
+      escreval(" ESCOLA JURILSON MENDES")
+      escreval("------------------------")
+      escreva("Primeira Nota: ")
+      leia(nota1)
+      escreva("Segunda Nota: ")
+      leia(nota2)
+      media <- (nota1 + nota2) / 2
+      escreval("------------------------")
+      escreval(" MEDIA: ",media:2:1)
+      se(media >= 7) entao
+           escreval(" ALUNO APROVADO")
+      senao
+           escreval(" ALUNO REPROVADO")
+      fimSe
+      escreval("------------------------")
+fimalgoritmo
+</pre>
+</code>
