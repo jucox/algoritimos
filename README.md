@@ -488,3 +488,45 @@ fimalgoritmo
 </code
 </pre>
 
+#### Aproveitamento Escolar
+
+<pre>
+<code>
+algoritmo "aproveitamento"
+var
+    nota1, nota2, nota3, media: real
+inicio
+      escreva("Primeira nota: ")
+      leia(nota1)
+      escreva("Segunda nota: ")
+      leia(nota2)
+      escreva("Terceira nota: ")
+      leia(nota3)
+      media <- (nota1 + nota2 + nota3) / 3
+      escreval("Sua media é: ",media:2:1)
+      se (media >= 9) entao
+         escreva("Aproveitamento: A")
+      senao
+           se (media < 9) e (media >= 8) entao
+              escreva("Aproveitamento: B")
+           senao
+                se (media < 8) e (media >= 7) entao
+                   escreva("Aprovetamento: C")
+                senao
+                     se (media < 7) e (media >= 6) entao
+                        escreva("Aproveitamento: D")
+                     senao
+                          se (media < 6) e (media >= 5) entao
+                             escreva("Aproveitamento: E")
+                          senao
+                               escreva ("Aproveitamento: F")
+                          fimse
+                     fimse
+                
+                fimse
+           
+           fimse
+      fimse
+fimalgoritmo
+</code>
+</pre>
