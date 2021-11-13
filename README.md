@@ -496,37 +496,95 @@ algoritmo "aproveitamento"
 var
     nota1, nota2, nota3, media: real
 inicio
-      escreva("Primeira nota: ")
-      leia(nota1)
-      escreva("Segunda nota: ")
-      leia(nota2)
-      escreva("Terceira nota: ")
-      leia(nota3)
-      media <- (nota1 + nota2 + nota3) / 3
-      escreval("Sua media é: ",media:2:1)
-      se (media >= 9) entao
-         escreva("Aproveitamento: A")
-      senao
-           se (media < 9) e (media >= 8) entao
-              escreva("Aproveitamento: B")
-           senao
-                se (media < 8) e (media >= 7) entao
-                   escreva("Aprovetamento: C")
+    escreva("Primeira nota: ")
+    leia(nota1)
+    escreva("Segunda nota: ")
+    leia(nota2)
+    escreva("Terceira nota: ")
+    leia(nota3)
+    media <- (nota1 + nota2 + nota3) / 3
+    escreval("Sua media é: ",media:2:1)
+    se (media >= 9) entao
+        escreva("Aproveitamento: A")
+    senao
+        se (media < 9) e (media >= 8) entao
+            escreva("Aproveitamento: B")
+        senao
+            se (media < 8) e (media >= 7) entao
+                escreva("Aprovetamento: C")
+            senao
+                se (media < 7) e (media >= 6) entao
+                    escreva("Aproveitamento: D")
                 senao
-                     se (media < 7) e (media >= 6) entao
-                        escreva("Aproveitamento: D")
-                     senao
-                          se (media < 6) e (media >= 5) entao
-                             escreva("Aproveitamento: E")
-                          senao
-                               escreva ("Aproveitamento: F")
-                          fimse
-                     fimse
-                
-                fimse
-           
-           fimse
-      fimse
+                    se (media < 6) e (media >= 5) entao
+                        escreva("Aproveitamento: E")
+                    senao
+                        escreva ("Aproveitamento: F")
+                    fimse
+                fimse         
+            fimse 
+        fimse
+    fimse
+fimalgoritmo
+</code>
+</pre>
+
+### Condicionais com Estrutura ESCOLHA CASO
+
+#### Doação
+<pre>
+<code>
+algoritmo "doacao"
+var
+    digito, valor: inteiro
+inicio
+    escreval("Faça uma doação!")
+    escreval("Para doar R$ 10,00 digite [1]")
+    escreval("Para doar R$ 15,00 digite [2]")
+    escreval("Para doar outro valor digite [3]")
+    escreval("Para cancelar a doação, digite [4]")
+    leia(digito)
+    escolha digito
+            caso 1
+                escreva("Obrigado! Você doou R$ 10,00.")
+            caso 2
+                escreva("Obrigado! Você doou R$ 15,00.")
+            caso 3
+                escreva("Quanto deseja doar? ")
+                leia(valor)
+                escreva("Obrigado! Você doou R$ ", valor,",00.")
+            caso 4
+                escreva("Que pena! Você não doou nada. =(")
+    fimEscolha
+fimalgoritmo
+</code>
+</pre>
+
+#### Diferença de Gols
+<pre>
+<code>
+algoritmo "aproveitamento"
+var
+    time1, time2, diferenca: inteiro
+inicio
+    escreva("Gols do primeiro time: ")
+    leia(time1)
+    escreva("Gols do segundo time: ")
+    leia(time2)
+    se (time1 > time2) entao
+        diferenca <- time1 - time2
+    senao
+        diferenca <- time2 - time1
+    fimse
+    escreval("A diferença  foi de ",diferenca," gols.")
+    escolha diferenca
+            caso 0
+                escreva("Foi um empate")
+            caso 1, 2, 3
+                escreva("Foi uma partida normal")
+            caso > 3
+                escreva("Foi goleada")
+    fimEscolha
 fimalgoritmo
 </code>
 </pre>
