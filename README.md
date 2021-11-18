@@ -610,3 +610,23 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Contando a partir de um número
+
+<pre>
+<code>
+algoritmo "contando"
+var
+    valor, conta: inteiro
+inicio
+    conta <- 1
+    escreva("Até quanto você quer contar? ")
+    leia(valor)
+    enquanto (conta <= valor) faca
+        escreval(conta)
+        conta <- conta + 1
+    fimEnquanto
+    escreval("Pronto, contei até ",valor,"!")
+fimalgoritmo
+</code>
+</pre>
