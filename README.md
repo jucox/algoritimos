@@ -617,16 +617,39 @@ fimalgoritmo
 <code>
 algoritmo "contando"
 var
-    valor, conta: inteiro
+    valor, salto, conta: inteiro
 inicio
     conta <- 1
     escreva("Até quanto você quer contar? ")
     leia(valor)
+    escreva("De quanto em quanto? ")
+    leia(salto)
     enquanto (conta <= valor) faca
         escreval(conta)
-        conta <- conta + 1
+        conta <- conta + salto
     fimEnquanto
-    escreval("Pronto, contei até ",valor,"!")
+    escreval("Pronto, contei até ",valor," de ",salto," em ",salto,"!")
+fimalgoritmo
+</code>
+</pre>
+
+#### Calculadora de soma
+
+<pre>
+<code>
+algoritmo "somador"
+var
+   cont, soma, numero:inteiro
+inicio
+      cont <- 1
+      soma <- 0
+      enquanto (cont <= 2) faca
+      escreva("Qual é o ",cont,"o número você deseja somar? ")
+      leia(numero)
+      cont <- cont + 1
+      soma <- soma + numero
+      fimenquanto
+      escreval("A soma desses valores é ",soma)
 fimalgoritmo
 </code>
 </pre>
