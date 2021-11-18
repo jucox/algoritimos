@@ -590,3 +590,23 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+### Estruturas de Repetição
+
+As estruturas de repetição tem por objetivo repetir uma ação toda vez que sua condição for válida, por exemplo: enquanto a comida estiver fria, esquentar mais um minuto no fogo.
+
+<pre>
+<code>
+algoritmo "aumentando-temperatura"
+var
+    temperatura: inteiro
+inicio
+    temperatura <- 20
+    enquanto (temperatura <= 30) faca
+        escreval(temperatura)
+        temperatura <- temperatura + 1
+    fimEnquanto
+    escreval("A temperatura está ideal.")
+fimalgoritmo
+</code>
+</pre>
