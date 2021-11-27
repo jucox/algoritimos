@@ -591,9 +591,9 @@ fimalgoritmo
 </code>
 </pre>
 
-### Estruturas de Repetição
+### Estruturas de Repetição (Loopings)
 
-As estruturas de repetição tem por objetivo repetir uma ação toda vez que sua condição for válida, por exemplo: enquanto a comida estiver fria, esquentar mais um minuto no fogo.
+As estruturas de repetição tem por objet48ivo repetir uma ação toda vez que sua condição for válida, por exemplo: enquanto a comida estiver fria, esquentar mais um minuto no fogo.
 
 <pre>
 <code>
@@ -637,19 +637,19 @@ fimalgoritmo
 
 <pre>
 <code>
-algoritmo "somador"
+algoritmo "calculadora-soma"
 var
-   cont, soma, numero:inteiro
+    cont, soma, numero:inteiro
 inicio
-      cont <- 1
-      soma <- 0
-      enquanto (cont <= 2) faca
-      escreva("Qual é o ",cont,"o número você deseja somar? ")
-      leia(numero)
-      cont <- cont + 1
-      soma <- soma + numero
-      fimenquanto
-      escreval("A soma desses valores é ",soma)
+    cont <- 1
+    soma <- 0
+    enquanto (cont <= 2) faca
+    escreva("Digite o ",cont,"o número: ")
+    leia(numero)
+    cont <- cont + 1
+    soma <- soma + numero
+    fimenquanto
+    escreval("A soma desses valores é igual a ",soma)
 fimalgoritmo
 </code>
 </pre>
