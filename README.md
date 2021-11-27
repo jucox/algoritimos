@@ -639,17 +639,52 @@ fimalgoritmo
 <code>
 algoritmo "calculadora-soma"
 var
-    cont, soma, numero:inteiro
+    quantValores, cont, soma, numero:inteiro
 inicio
     cont <- 1
     soma <- 0
-    enquanto (cont <= 2) faca
-    escreva("Digite o ",cont,"o número: ")
-    leia(numero)
-    cont <- cont + 1
-    soma <- soma + numero
+    escreval("Quantos valores você deseja somar? ")
+    leia(quantValores)
+    enquanto (cont <= quantValores) faca
+        escreva("Digite o ",cont,"º valor: ")
+        leia(numero)
+        cont <- cont + 1
+        soma <- soma + numero
     fimenquanto
-    escreval("A soma desses valores é igual a ",soma)
+    escreval("A soma desses valores é igual a ",soma, "! =D")
+fimalgoritmo
+</code>
+</pre>
+
+#### Calculadora de Gastos
+
+<pre>
+<code>
+algoritmo "calculadora-de-gastos"
+var
+    quantItens, cont, soma, valor, maior,menor:inteiro
+inicio
+    cont <- 1
+    soma <- valor
+    escreval("[-$-$-$-] CALCULADORA DE GASTOS [-$-$-$-]")
+    escreval("")
+    escreva("Digite o número de itens você comprou: ")
+    leia(quantItens)
+    enquanto (cont <= quantItens) faca
+        escreva("Digite o valor do ",cont,"º item: R$ ")
+        leia(valor)
+        se (valor > maior) entao
+           maior <- valor
+        fimse
+        se (menor = 0) ou (valor < menor) entao
+           menor <- valor
+        fimse
+        cont <- cont + 1
+        soma <- soma + valor
+    fimenquanto
+    escreval("No total, você teve um gasto de R$ ",soma,".")
+    escreval("O item mais caro custou R$ ",maior,".")
+    escreval("O item mais barato custou R$ ",menor,".")
 fimalgoritmo
 </code>
 </pre>
