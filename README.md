@@ -753,3 +753,22 @@ escreva("O melhor aproveitamento foi de ",melhorAluno," com a nota ",maiorNota)
 fimalgoritmo
 </code>
 </pre>
+
+### Usando o comando REPITA
+
+Ao usar o REPITA, estamos trabalhando com uma estrutura de repetição de forma inversa, onde a condição vem após a execução do bloco.
+
+<pre>
+<code>
+algoritmo "repita1"
+var
+cont: inteiro
+inicio
+cont <- 1
+repita
+      escreval(cont)
+      cont <- cont + 1
+ate(cont >10)
+fimalgoritmo
+</code>
+</pre>
