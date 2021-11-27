@@ -688,3 +688,68 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Contagem Inteligente
+
+<pre>
+<code>
+algoritmo "contando"
+var
+comeco, fim, conta: inteiro
+inicio
+escreval("CONTAGEM INTELIGENTE")
+escreval("--------------------")
+escreva("Inicio: ")
+leia(comeco)
+escreva("Fim: ")
+leia(fim)
+conta <- comeco
+escreval("--------------------")
+escreval("  C O N T A N D O  ")
+escreval("--------------------")
+se(fim > comeco) entao
+   enquanto (conta <= fim) faca
+      escreva(conta,"..  ")
+      conta <- conta + 1
+   fimEnquanto
+senao
+   enquanto (conta >= fim) faca
+      escreva(conta,"..  ")
+      conta <- conta - 1
+   fimEnquanto
+fimse
+fimalgoritmo
+</code>
+</pre>
+
+#### Melhor Nota
+
+<pre>
+<code>
+algoritmo "contando"
+var
+notaAluno, maiorNota: real
+totalAlunos, conta: inteiro
+nomeAluno, melhorAluno: caractere
+inicio
+escreva("Número de alunos na turma: ")
+leia(totalAlunos)
+conta <- 1
+enquanto (conta <= totalAlunos) faca
+    escreval("--------------------------")
+    escreval("ALUNO ",conta)
+    escreva("Nome do aluno: ")
+    leia(nomeAluno)
+    escreva("Nota de ",nomeAluno,": ")
+    leia(notaAluno)
+    se(notaAluno > maiorNota) entao
+        maiorNota <- notaAluno
+        melhorAluno <- nomeAluno
+   fimse
+   conta <- conta + 1
+fimEnquanto
+escreval("--------------------------")
+escreva("O melhor aproveitamento foi de ",melhorAluno," com a nota ",maiorNota)
+fimalgoritmo
+</code>
+</pre>
