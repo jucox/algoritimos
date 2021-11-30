@@ -859,3 +859,28 @@ inicio
     fimpara
 </code>
 </pre>
+
+#### Números entre 0 e 10
+
+<pre>
+<code>
+algoritmo "numerosEntre0e10"
+var
+cont, valor, totalNumeros: inteiro
+inicio
+totalNumeros <- 0
+numerosImpares <- 0
+para cont <- 1 ate 5 faca
+   escreva("Digite um valor: ")
+   leia(valor)
+   se((valor >= 0) e (valor<= 10)) entao
+      totalNumeros <- totalNumeros + 1
+   fimSe
+   se(totalNumeros % 2 = 1) entao
+      numerosImpares <- numerosImpares + numerosImpares
+   fimSe
+fimPara
+escreva(totalNumeros)
+fimalgoritmo
+</code>
+</pre>
