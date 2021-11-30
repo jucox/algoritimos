@@ -838,3 +838,24 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+### Estruturas de Repetição: PARA (FOR)
+
+Essa estrutura de repetição se baseia em determinar o caminho que o algortmo deve seguir com o seu resultado em seguida:
+
+<pre>
+<code>
+algoritmo "valoresPares"
+var
+    cont, valor: inteiro
+inicio
+    escreva("Digite um valor: ")
+    leia(valor)
+    se(valor % 2 = 1) entao
+        valor <- valor - 1
+    fimSe
+    para cont <- valor ate 0 passo -2 faca
+        escreval(cont)
+    fimpara
+</code>
+</pre>
