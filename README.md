@@ -772,3 +772,69 @@ ate(cont >10)
 fimalgoritmo
 </code>
 </pre>
+
+#### Tabuada
+
+<pre>
+<code>
+algoritmo "tabuada"
+var
+cont, numero, resultado: inteiro
+inicio
+escreva("Deseja ver a tabuada de qual número? ")
+leia(numero)
+cont <- 1
+repita
+      resultado <- numero * cont
+      escreval(numero," x ",cont," = ",resultado)
+      cont <- cont + 1
+ate(cont >10)
+fimalgoritmo
+</code>
+</pre>
+
+#### Números Negativos
+
+<pre>
+<code>
+algoritmo "numerosNegativos"
+var
+cont, quantNumeros, numerosNegativos, numero: inteiro
+inicio
+escreva("Quantos numeros você irá consultar? ")
+leia(quantNumeros)
+cont <- 1
+numerosNegativos <- 0
+repita
+escreva("Digite um número: ")
+leia(numero)
+se(numero > 0)entao
+          numerosNegativos <- numerosNegativos + 1
+fimse
+cont <- cont + 1
+ate(cont >quantNumeros)
+escreva("Você digitou um total de ", numerosNegativos, " números negativos.")
+fimalgoritmo
+</code>
+</pre>
+
+#### Fatorial
+
+<pre>
+<code>
+algoritmo "fatorial"
+var
+      numero, conta, fatorial: inteiro
+inicio
+    escreva("Digite o número que deseja fatoriar: ")
+    leia(numero)
+    conta <- numero
+    fatorial <- 1
+    repita
+    fatorial <- fatorial * conta
+    conta <- conta - 1
+    ate(conta < 1)
+    escreva("O fatorial de ", numero, " é ", fatorial)
+fimalgoritmo
+</code>
+</pre>
