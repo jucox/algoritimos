@@ -893,11 +893,25 @@ algoritmo "combinacoes"
 var
 combinacao1, combinacao2: inteiro
 inicio
+</code>
+</pre>
 
-para combinacao1 := 1 ate 3 faca
-   para combinacao2 := 1 ate 3 faca
-      escreval(combinacao1, combinacao2)
-   fimpara
+#### Sequência de Fibonacci
+
+<pre>
+<code>
+algoritmo "sequenciaFibonacci"
+var
+n1, n2, n3, seq: inteiro
+inicio
+n1 <- 0
+escreval(n1)
+n2 <- 1
+para seq := 3 ate 15 faca
+    n3 <- n1 + n2
+    escreval(n3)
+    n1 <- n2
+    n2 <- n3
 fimPara
 fimalgoritmo
 </code>
