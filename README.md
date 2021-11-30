@@ -884,3 +884,21 @@ escreva(totalNumeros)
 fimalgoritmo
 </code>
 </pre>
+
+#### Combinações com Para
+
+<pre>
+<code>
+algoritmo "combinacoes"
+var
+combinacao1, combinacao2: inteiro
+inicio
+
+para combinacao1 := 1 ate 3 faca
+   para combinacao2 := 1 ate 3 faca
+      escreval(combinacao1, combinacao2)
+   fimpara
+fimPara
+fimalgoritmo
+</code>
+</pre>
