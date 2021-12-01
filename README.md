@@ -916,3 +916,22 @@ fimPara
 fimalgoritmo
 </code>
 </pre>
+
+#### Analisador de Valores
+
+<pre>
+<code>
+algoritmo "analisadorValores"
+var
+cont, valor: inteiro
+inicio
+cont <- 1
+para cont := 1 ate 5 faca
+   escreva("Digite o ",cont,"º valor: ")
+   leia(valor)
+   somaValores <- valor + valor
+fimPara
+escreva("A soma
+fimalgoritmo
+</code>
+</pre>
