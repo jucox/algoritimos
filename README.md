@@ -998,3 +998,7 @@ parOuImpar(n)
 fimalgoritmo
 </code>
 </pre>
+
+#### Escopo
+
+As variáveis de escopo GLOBAL, podem ser aplicadas em todo o algorítmo. As variáveis de escopo LOCAL, só podem ser aplicadas dentro de um procedimento.
