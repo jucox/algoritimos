@@ -1001,4 +1001,37 @@ fimalgoritmo
 
 #### Escopo
 
-As variáveis de escopo GLOBAL, podem ser aplicadas em todo o algorítmo. As variáveis de escopo LOCAL, só podem ser aplicadas dentro de um procedimento.
+As variáveis de escopo GLOBAL, podem ser aplicadas em todo o algorítmo. As variáveis de escopo LOCAL, só podem ser aplicadas dentro de um procedimento. 
+
+#### Passagem por Valor e por Referência
+
+Por valor: o valor é copiado para o parâmetro
+
+Por referência: o parâmetro altera diretamente na variável original.
+
+Exemplo:
+
+<pre>
+<code>
+algoritmo "somaParametrosReferencia"
+var
+x, y: inteiro
+
+procedimento soma(var a, b: inteiro) // se tirar o "var", a passagem passa a ser por valor e a variável original não é alterada
+inicio
+    a <- a + 1
+    b <- b + 2
+    escreval("Valor de A = ", a)
+    escreval("Valor de B = ", b)
+    escreval("Soma A + B = ", a + b)
+    fimprocedimento
+
+inicio
+    x <- 4
+    y <- 8
+ soma(x,y)
+    escreval("Valor de X = ", x)
+    escreval("Valor de y = ", y)
+fimalgoritmo
+</pre>
+</code>
