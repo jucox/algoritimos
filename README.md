@@ -935,3 +935,41 @@ escreva("A soma
 fimalgoritmo
 </code>
 </pre>
+
+### Procedimentos
+
+Os procedimentos guardam uma função e podem ser chamados várias vezes durante o algorítmo, são conhecidos também como <i>callbacks</i>.
+
+<pre>
+<code>
+algoritmo "detectorPesado"
+var
+    i: inteiro
+    nome, pesado: caractere
+    peso, maiorPeso: real
+
+procedimento topo()
+inicio
+    limpatela
+    escreval("Maior peso até agora: ",maiorPeso,"Kg")
+fimProcedimento
+
+inicio
+topo()
+para i <- 1 ate 5 faca
+    escreva("Nome: ")
+    leia(nome)
+    escreva("Peso: ")
+    leia(peso)
+    se(peso > maiorPeso) entao
+        maiorPeso <- peso
+        pesado <- nome
+    fimSe
+    limpaTela
+    topo()
+fimPara
+topo()
+escreval("A pessoa mais pesada foi: ",pesado,", com ", maiorPeso ,"Kg.")
+fimalgoritmo
+</code>
+</pre>
