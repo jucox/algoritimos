@@ -1093,8 +1093,8 @@ fimalgoritmo
 <code>
 algoritmo "funcaoParImpar"
 var
-numero: inteiro
-resultado: caractere
+    numero: inteiro
+    resultado: caractere
 funcao verificador(a: inteiro):caractere
 inicio
 se (a % 2 =0) entao
@@ -1104,10 +1104,35 @@ senao
 fimse
 fimfuncao
 inicio
-escreva("Digite um número: ")
-leia(numero)
-resultado <- verificador(numero)
-escreva(resultado)
+    escreva("Digite um número: ")
+    leia(numero)
+    resultado <- verificador(numero)
+    escreva(resultado)
+fimalgoritmo
+</code>
+</pre>
+
+#### Função de Fatoriais
+
+<pre>
+<code>
+algoritmo "fatorialFuncao"
+var
+    numero, resultado: inteiro
+funcao fatorial(a: inteiro):inteiro
+    var c, f: inteiro
+inicio
+    f <- 1
+    para c <- 1 ate a faca
+        f <- f * c
+    fimpara
+    retorne f
+fimfuncao
+inicio
+    escreva("Digite um número: ")
+    leia(numero)
+    resultado <- fatorial(numero)
+    escreva("O fatorial de ",numero," é ",resultado)
 fimalgoritmo
 </code>
 </pre>
