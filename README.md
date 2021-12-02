@@ -1063,3 +1063,26 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+### Funções
+
+As funções, assim como os procedimentos, são guardadas fora do algorítmo e podem retornar seu resultado no momento em que chamamos por ela no algorítmo.
+
+<pre>
+<code>
+algoritmo "funcaoSoma"
+var
+    valor1, valor2, resultado: inteiro
+funcao soma(a,b: inteiro):inteiro
+retorne(a + b)
+fimfuncao
+inicio
+    escreva("Digite o primeiro valor: ")
+    leia(valor1)
+    escreva("Digite o segundo valor: ")
+    leia(valor2)
+    resultado <- soma(valor1, valor2)
+    escreva(resultado)
+fimalgoritmo
+</code>
+</pre>
