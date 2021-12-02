@@ -973,3 +973,28 @@ escreval("A pessoa mais pesada foi: ",pesado,", com ", maiorPeso ,"Kg.")
 fimalgoritmo
 </code>
 </pre>
+
+#### Par ou Ímpar com Procedimento
+
+<pre>
+<code>
+algoritmo "parImpar"
+var
+n: inteiro
+
+procedimento parOuImpar(x: inteiro)
+inicio
+se(x % 2 = 0) entao
+    escreva("Esse número é par!")
+senao
+    escreva("Esse número é ímpar!")
+fimse
+fimprocedimento
+
+inicio
+escreva("Digite um número: ")
+leia(n)
+parOuImpar(n)
+fimalgoritmo
+</code>
+</pre>
