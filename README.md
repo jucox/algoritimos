@@ -1035,3 +1035,31 @@ inicio
 fimalgoritmo
 </pre>
 </code>
+
+#### Sequência de Fibonacci com Procedimento
+
+<pre>
+<code>
+algoritmo "sequenciaFibonacciProcedimento"
+var
+n1, n2, n3, seq: inteiro
+
+procedimento fibonacci(var a, b: inteiro)
+var
+    c: inteiro
+inicio
+    c <- a + b
+    escreval(c)
+    a <- b
+    b <- c
+fimprocedimento
+inicio
+    n1 <- 0
+    escreval(n1)
+    n2 <- 1
+    para seq := 3 ate 15 faca
+        fibonacci(n1,n2)
+    fimPara
+fimalgoritmo
+</code>
+</pre>
