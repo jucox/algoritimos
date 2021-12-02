@@ -1074,7 +1074,7 @@ algoritmo "funcaoSoma"
 var
     valor1, valor2, resultado: inteiro
 funcao soma(a,b: inteiro):inteiro
-retorne(a + b)
+retorne a + b
 fimfuncao
 inicio
     escreva("Digite o primeiro valor: ")
@@ -1083,6 +1083,31 @@ inicio
     leia(valor2)
     resultado <- soma(valor1, valor2)
     escreva(resultado)
+fimalgoritmo
+</code>
+</pre>
+
+#### Função de Par ou Ímpar
+
+<pre>
+<code>
+algoritmo "funcaoParImpar"
+var
+numero: inteiro
+resultado: caractere
+funcao verificador(a: inteiro):caractere
+inicio
+se (a % 2 =0) entao
+    retorne "Esse número é par!"
+senao
+    retorne"Esse número é ímpar!"
+fimse
+fimfuncao
+inicio
+escreva("Digite um número: ")
+leia(numero)
+resultado <- verificador(numero)
+escreva(resultado)
 fimalgoritmo
 </code>
 </pre>
