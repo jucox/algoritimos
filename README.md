@@ -1163,3 +1163,17 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+### Funções Nativas no Visualg
+
+O visualg, como outras bibliotecas de diversas linguagens de programação, tem algumas funções nativas que trazem resultados bem legais:
+
+<ul>
+    <li>compr(nome) // apresenta o número de caracteres do nome</li>
+    <li>maiusc(nome) // retorna o nome com letras maiúsculas</li>
+    <li>minusc(nome) // retorna o nome com letrar minúsculas</li>
+    <li>copia(nome,4,6) // retorna os caracteres localizado nessa posição (Skywalker => walker)</li>
+    <li>pos("L") // retorna a localização da letra em seu nome (Skywalker => L => 6)</li>
+    <li>asc("A") // retorna o código da letra (A => 65)</li>
+    <li>carac(65) // retorna a letra do código (65 => 65)
+</ul>
