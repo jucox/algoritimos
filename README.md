@@ -1136,3 +1136,30 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Sequência de Fibonacci com Função
+
+<pre>
+<code>
+algoritmo "sequenciaFibonacciFuncao"
+var
+    v1, v2, i, seq: inteiro
+funcao fibonacci(var a,b:inteiro):inteiro
+    var c: inteiro
+inicio
+    c <- a + b
+    a <- b
+    b <- c
+    retorne c
+fimfuncao
+inicio
+    v1 <- 0
+    escreval(v1)
+    v2 <- 1
+    para i <- 3 ate 10 faca
+        seq <- fibonacci(v1,v2)
+        escreval(seq)
+    fimpara
+fimalgoritmo
+</code>
+</pre>
