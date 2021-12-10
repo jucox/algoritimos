@@ -1296,3 +1296,30 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Nomes com C no início
+
+<pre>
+<code>
+algoritmo "inicialC"
+var
+    inicialC, nome: vetor[1..5] de caractere
+    i, totalPessoas: inteiro
+inicio
+totalPessoas <- 0
+    para i <- 1 ate 5 faca
+        escreva("Digite um nome => ")
+        leia(nome[i])
+        se(copia(maiusc(nome[i]),1,1) = "C") entao
+            inicialC[i] <- nome[i]
+        fimSe
+        totalPessoas <- totalPessoas + 1
+    fimPara
+    escreval(" ")
+    escreval("NOMES COM C NO INÍCIO:")
+    para i <- 1 ate totalPessoas faca
+        escreval(inicialC[i])
+    fimPara
+fimalgoritmo
+</code>
+</pre>
