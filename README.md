@@ -1228,3 +1228,30 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Números pares com vetores
+
+Podemos calcular e localizar onde estavam os números pares com vetores, já que, cada vez que digitamos, eles são guardados nas variáveis:
+
+<pre>
+<code>
+algoritmo "paresComVetor"
+var
+    valor: vetor[1..5] de inteiro
+    i, totalPares: inteiro
+inicio
+    totalPares <- 0
+    para i <- 1 ate 5 faca
+        escreva("Digite o ", i, "o valor: ")
+        leia(valor[i])
+    fimPara
+    para i <- 1 ate 5 faca
+        se (valor[i] % 2 = 0) entao
+            totalPares <- totalPares + 1
+            escreval("Havia um valor par na posição ", i)
+        fimSe
+    fimPara
+    escreva("O total de números pares foi ", totalPares)
+fimalgoritmo
+</code>
+</pre>
