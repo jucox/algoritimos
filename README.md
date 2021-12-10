@@ -1177,3 +1177,54 @@ O visualg, como outras bibliotecas de diversas linguagens de programação, tem 
     <li>asc("A") // retorna o código da letra (A => 65)</li>
     <li>carac(65) // retorna a letra do código (65 => 65)
 </ul>
+
+### Variáveis Compostas
+
+Uma variável simples é aquela que guarda uma informação de tipo inteiro, caractere, etc., onde é guardada uma informação (um número, uma palavra, etc.).
+
+Exemplo:
+
+<pre>
+<code>
+var
+    n1, n2, n3, n4: inteiro
+inicio
+    n1 <- 10
+    n2 <- 5
+    n3 <- 2
+    n3 <- 7
+</code>
+</pre>
+
+Uma variável composta guarda vários valores dentro de um vetor.
+
+Exemplo de uma variável composta homogênia (onde são guardados vários valores do mesmo tipo):
+
+<pre>
+<code>
+var
+    n: vetor[1..4] de inteiro
+inicio
+    n[1] <- 10
+    n[2] <- 5
+    n[3] <- 2
+    n[3] <- 7
+</code>
+</pre>
+
+Exemplo de uma variável composta homogênia unidimencional (onde os valores de um contador são guardados nas váriaveis compostas):
+
+<pre>
+<code>
+algoritmo "testeVetor"
+var
+    v: vetor[1..5] de inteiro
+    c: inteiro
+inicio
+    para c <- 1 ate 5 faca
+        escreva("Digite o ", c, "o valor: ")
+        leia(v[c])
+    fimPara
+fimalgoritmo
+</code>
+</pre>
