@@ -1255,3 +1255,33 @@ inicio
 fimalgoritmo
 </code>
 </pre>
+
+#### Média dos Alunos com Vetores
+
+<pre>
+<code>
+algoritmo "mediasDosAlunos"
+var
+    nome: vetor[1..3] de caractere
+    nota1: vetor [1..3] de real
+    nota2: vetor [1..3] de real
+    media: vetor [1..3] de real
+    i: inteiro
+inicio
+    para i <- 1 ate 2 faca
+        escreva("Nome do aluno: ")
+        leia(nome[i])
+        escreva("Primeira nota: ")
+        leia(nota1[i])
+        escreva("Segunda nota: ")
+        leia(nota2[i])
+        media[i] <- (nota1[i] + nota2[i]) / 2
+        escreval(" ")
+    fimPara
+    escreval("MÉDIA DOS ALUNOS:")
+    para i <- 1 ate 2 faca
+        escreval(nome[i]:15, media[i]:4:1)
+    fimPara
+fimalgoritmo
+</code>
+</pre>
