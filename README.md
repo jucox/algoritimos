@@ -1256,7 +1256,7 @@ fimalgoritmo
 </code>
 </pre>
 
-#### Média dos Alunos com Vetores
+#### Média dos Alunos + Média da Turma com Vetores
 
 <pre>
 <code>
@@ -1266,9 +1266,12 @@ var
     nota1: vetor [1..3] de real
     nota2: vetor [1..3] de real
     media: vetor [1..3] de real
+    quantAlunos: inteiro
+    somaMedias, mediaTurma: real
     i: inteiro
 inicio
-    para i <- 1 ate 2 faca
+    somaMedias <- 0
+    para i <- 1 ate 3 faca
         escreva("Nome do aluno: ")
         leia(nome[i])
         escreva("Primeira nota: ")
@@ -1276,11 +1279,19 @@ inicio
         escreva("Segunda nota: ")
         leia(nota2[i])
         media[i] <- (nota1[i] + nota2[i]) / 2
+        somaMedias <- somaMedias + media[i]
         escreval(" ")
     fimPara
+    mediaTurma <- somaMedias/3
+    escreval("MÉDIA DA TURMA: ", mediaTurma:4:1)
     escreval("MÉDIA DOS ALUNOS:")
-    para i <- 1 ate 2 faca
+    para i <- 1 ate 3 faca
         escreval(nome[i]:15, media[i]:4:1)
+        se(media[i] >= mediaTurma) entao
+            escreval(nome[i], " está ACIMA da média!")
+        senao
+            escreval(nome[i], " está ABAIXO da média!")
+        fimSe
     fimPara
 fimalgoritmo
 </code>
